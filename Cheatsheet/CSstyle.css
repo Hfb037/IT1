@@ -1,0 +1,30 @@
+body{
+    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lenker{
+    border: 2px;
+    width: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 25px auto;
+}
+
+#bildelink{
+    border: 2px;
+    width: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 25px auto;
+
+}
+
+#shortcuts{
+    border: 2px;
+    width: 50%;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 25px auto;
+}
+

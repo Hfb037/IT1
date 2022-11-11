@@ -1,0 +1,54 @@
+
+html, body {
+    height: 100%; margin: 0; padding: 0;
+}
+
+button{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: row;
+}
+
+#hoved {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "t t t t"
+    "v v m h"
+    "v v m h"
+    "v v m h"
+    ". . m h";
+}
+
+.topp { grid-area: t;
+    background-color: lightslategray; }
+.venstre { grid-area: v;
+    background-color: aqua;
+    
+}
+.helthoyre { grid-area: h; }
+.midthoyre {grid-area: m;}
+div {
+    border: 1px solid black;
+}
+
+
+/* media screeb trigges når skjermoppløsning er 992px eller mindre */
+@media screen and (max-width: 992px) {
+    #hoved {
+        /* height: 100%;
+        width: 100%;
+        display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "t"
+        "v"
+        "h"
+        "h"
+        "b";
+    }
+}

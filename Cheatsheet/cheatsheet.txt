@@ -1,0 +1,10 @@
+bilde link:
+src="eksempelBilde.jpg"
+(om bilde er i en annen folder... f.eks "bilder")
+-src="./bilder/bilde2.jpg"
+shortcuts:
+"!" vil sette inn doctype html
+
+lenker:
+<a href="kontaktMeg.html">Kontakt meg//kontakt meg blir skrevet som teksten til lenken//</a>
+<a href="hjem.html">Hjem</a>

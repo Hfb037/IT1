@@ -1,0 +1,16 @@
+div {
+    width: 80%;
+    margin: 5px;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rod{
+    background-color: red;
+    border: 2px solid rebeccapurple;
+}
+
+.gronn{
+    background-color: greenyellow;
+    border: 2px solid green;
+}

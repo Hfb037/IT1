@@ -1,0 +1,57 @@
+html, body{
+    height: 100%; margin: 0; padding: 0;
+
+}
+
+#hoved{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "t t t t"
+    "v v m h"
+    "v v m h"
+    "v v m h"
+    ". . m h"
+    ". . m h"
+    ". . m h";
+
+}
+
+.topp{
+    grid-area: t;
+    background-color: lightslategray;
+}
+
+
+.venstre{
+    grid-area: v;
+    background-color: aqua;
+}
+.heltHøyre{
+    grid-area:h;
+}
+.midtHøyre{
+    grid-area:m;
+}
+div{
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 700px) {
+    #hoved {
+        /* height: 100%;
+        width: 100%;
+        display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 
+        "t"
+        "v"
+        "h"
+        "h"
+        "b";
+    }
+}

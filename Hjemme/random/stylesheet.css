@@ -1,0 +1,16 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+#hoved{
+    border: 2px solid #aaaaff;
+    width:  50%;
+    margin: 50px auto;
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

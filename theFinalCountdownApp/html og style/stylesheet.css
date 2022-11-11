@@ -1,0 +1,21 @@
+html, body {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-end ;
+}
+
+h1{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
